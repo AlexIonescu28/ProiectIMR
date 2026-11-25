@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PhoneXRController : MonoBehaviour
 {
-    public GameObject phoneCanvas; // Trage aici CanvasTelefon
+    public GameObject phoneCanvas; 
     private bool isOpen = false;
 
     void Start()
@@ -11,7 +11,7 @@ public class PhoneXRController : MonoBehaviour
             phoneCanvas.SetActive(false);
     }
 
-    // Aceasta functie va fi apelata automat cand apesi G (Select) pe telefon
+    
     public void TogglePhoneScreen()
     {
         isOpen = !isOpen;
